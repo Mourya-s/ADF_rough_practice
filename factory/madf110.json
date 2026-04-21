@@ -1,0 +1,9 @@
+{
+	"name": "madf110",
+	"location": "centralindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "d95f1415-6692-4b9a-b964-d37a499c523a",
+		"tenantId": "34634f4d-1112-47c2-85a3-bb55d77ff483"
+	}
+}
