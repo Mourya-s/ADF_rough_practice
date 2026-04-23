@@ -1,0 +1,79 @@
+{
+	"name": "DelimitedText1",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureDataLakeStorage1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileSystem": "source"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"name": "Customer Id",
+				"type": "String"
+			},
+			{
+				"name": "Name",
+				"type": "String"
+			},
+			{
+				"name": "Email Id",
+				"type": "String"
+			},
+			{
+				"name": "address",
+				"type": "String"
+			},
+			{
+				"name": "gender",
+				"type": "String"
+			},
+			{
+				"name": "age",
+				"type": "String"
+			},
+			{
+				"name": "Joining Date",
+				"type": "String"
+			},
+			{
+				"name": "registered",
+				"type": "String"
+			},
+			{
+				"name": "order ID",
+				"type": "String"
+			},
+			{
+				"name": "orders",
+				"type": "String"
+			},
+			{
+				"name": "spent",
+				"type": "String"
+			},
+			{
+				"name": "job",
+				"type": "String"
+			},
+			{
+				"name": "hobbies",
+				"type": "String"
+			},
+			{
+				"name": "is_married",
+				"type": "String"
+			}
+		]
+	}
+}
