@@ -43,6 +43,10 @@
 			"type": "string",
 			"defaultValue": "/subscriptions/eb2b99af-b252-49be-813f-71371b29f7b0/resourceGroups/foradf/providers/Microsoft.Storage/storageAccounts/adfbolbstorage"
 		},
+		"trigger2_properties_typeProperties_scope": {
+			"type": "string",
+			"defaultValue": "/subscriptions/eb2b99af-b252-49be-813f-71371b29f7b0/resourceGroups/foradf/providers/Microsoft.Storage/storageAccounts/adfbolbstorage"
+		},
 		"containerUri": {
 			"type": "string",
 			"metadata": "URI to storage account containing linked ARM templates"
@@ -96,6 +100,9 @@
 					},
 					"trigger1_properties_typeProperties_scope": {
 						"value": "[parameters('trigger1_properties_typeProperties_scope')]"
+					},
+					"trigger2_properties_typeProperties_scope": {
+						"value": "[parameters('trigger2_properties_typeProperties_scope')]"
 					}
 				}
 			},
