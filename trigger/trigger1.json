@@ -13,7 +13,7 @@
 		],
 		"type": "BlobEventsTrigger",
 		"typeProperties": {
-			"blobPathBeginsWith": "/bronze/blobs/",
+			"blobPathBeginsWith": "/forscheduleexp/blobs/",
 			"ignoreEmptyBlobs": true,
 			"scope": "/subscriptions/eb2b99af-b252-49be-813f-71371b29f7b0/resourceGroups/foradf/providers/Microsoft.Storage/storageAccounts/adfbolbstorage",
 			"events": [
