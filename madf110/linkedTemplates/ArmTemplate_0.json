@@ -396,7 +396,6 @@
 				"type": "BlobEventsTrigger",
 				"typeProperties": {
 					"blobPathBeginsWith": "/bronze/blobs/",
-					"blobPathEndsWith": "coustomer/20240105_sales_customer.csv",
 					"ignoreEmptyBlobs": true,
 					"scope": "[parameters('trigger1_properties_typeProperties_scope')]",
 					"events": [
