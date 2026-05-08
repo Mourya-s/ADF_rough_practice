@@ -28,6 +28,9 @@
 		},
 		"AzureSqlDatabase1_properties_typeProperties_userName": {
 			"value": "MouryaReddy"
+		},
+		"trigger1_properties_typeProperties_scope": {
+			"value": "/subscriptions/eb2b99af-b252-49be-813f-71371b29f7b0/resourceGroups/foradf/providers/Microsoft.Storage/storageAccounts/adfbolbstorage"
 		}
 	}
 }
